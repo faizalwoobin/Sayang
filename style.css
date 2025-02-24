@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #fce4ec;
+    color: #333;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feeling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feeling img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+#quoteDisplay {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+#quoteDisplay img {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
