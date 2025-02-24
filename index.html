@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Are You Feeling?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>How Are You Feeling?</h1>
+    <div class="button-container">
+        <div class="feeling">
+            <img src="https://drive.google.com/file/d/1mm4omqKHG2WQ8trK6M2jo1tqQWuhFX2X/view?usp=sharing" alt="Happy">
+            <button onclick="showQuote('happy')">😊 Happy</button>
+        </div>
+        <div class="feeling">
+            <img src="https://drive.google.com/file/d/15E35RDF8ZS148OuHgxBx9aIe73tOuX6u/view?usp=drive_link" alt="Angry">
+            <button onclick="showQuote('angry')">😠 Angry</button>
+        </div>
+        <div class="feeling">
+            <img src="https://drive.google.com/file/d/1G3Hbcprskuna9V9hwkB_EC7_EI7j_MoU/view?usp=drive_link" alt="Sad">
+            <button onclick="showQuote('sad')">😢 Sad</button>
+        </div>
+        <div class="feeling">
+            <img src="https://drive.google.com/file/d/1X2TbC3jZGCFsSzTQ1bUEhdagTkBOkKxd/view?usp=drive_link" alt="Unmotivated">
+            <button onclick="showQuote('unmotivated')">😞 Unmotivated</button>
+        </div>
+        <div class="feeling">
+            <img src="https://drive.google.com/file/d/1Lc3cV_jzBt8_IH1tHc4xUHekma-09yTA/view?usp=drive_link" alt="Tired">
+            <button onclick="showQuote('tired')">🥱 Tired</button>
+        </div>
+    </div>
+    <div id="quoteDisplay"></div>
+    <audio id="musicPlayer" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
