@@ -1,15 +1,15 @@
 const quotes = {
     happy: [
         { text: "Your smile is my favorite thing in the world 💛", image: "quotes/happy1.jpg" },
-        { text: "Seeing you happy makes my heart so full ❤️", image: "quotes/happy2.jpg" },
-        { text: "Your happiness is contagious, and I love catching it! 😊", image: "quotes/happy3.jpg" },
-        { text: "Even on the brightest days, you make everything shine brighter ✨", image: "quotes/happy4.jpg" },
-        { text: "Your laughter is my favorite melody 🎶", image: "quotes/happy5.jpg" },
-        { text: "Happiness looks so good on you 💕", image: "quotes/happy6.jpg" },
-        { text: "You're like a little ball of sunshine ☀️", image: "quotes/happy7.jpg" },
-        { text: "You make my world a better place just by being in it 💖", image: "quotes/happy8.jpg" },
-        { text: "Your joy is my joy, always 💓", image: "quotes/happy9.jpg" },
-        { text: "Keep smiling, my love, it suits you perfectly 💗", image: "quotes/happy10.jpg" }
+        { text: "Seeing you happy makes my heart so full ❤️", image: "quotes/happy1.jpg" },
+        { text: "Your happiness is contagious, and I love catching it! 😊", image: "quotes/happy1.jpg" },
+        { text: "Even on the brightest days, you make everything shine brighter ✨", image: "quotes/happy1.jpg" },
+        { text: "Your laughter is my favorite melody 🎶", image: "quotes/happy1.jpg" },
+        { text: "Happiness looks so good on you 💕", image: "quotes/happy1.jpg" },
+        { text: "You're like a little ball of sunshine ☀️", image: "quotes/happy1.jpg" },
+        { text: "You make my world a better place just by being in it 💖", image: "quotes/happy1.jpg" },
+        { text: "Your joy is my joy, always 💓", image: "quotes/happy1.jpg" },
+        { text: "Keep smiling, my love, it suits you perfectly 💗", image: "quotes/happy1.jpg" }
     ],
     angry: [
         { text: "It's okay to be mad, I'm here for you 🫂", image: "quotes/angry1.jpg" },
