@@ -4,34 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Are You Feeling?</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KEY.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>How Are You Feeling?</h1>
-    <div class="button-container">
-        <div class="feeling">
-            <img src="https://github.com/faizalwoobin/Sayang/blob/main/happy1.jpg" alt="Happy">
-            <button onclick="showQuote('happy')">😊 Happy</button>
-        </div>
-        <div class="feeling">
-            <img src="images/angry.png" alt="Angry">
-            <button onclick="showQuote('angry')">😠 Angry</button>
-        </div>
-        <div class="feeling">
-            <img src="images/sad.png" alt="Sad">
-            <button onclick="showQuote('sad')">😢 Sad</button>
-        </div>
-        <div class="feeling">
-            <img src="images/unmotivated.png" alt="Unmotivated">
-            <button onclick="showQuote('unmotivated')">😞 Unmotivated</button>
-        </div>
-        <div class="feeling">
-            <img src="images/tired.png" alt="Tired">
-            <button onclick="showQuote('tired')">🥱 Tired</button>
-        </div>
+
+    <h1>How Are You Feeling? 💖</h1>
+
+    <div id="feeling-buttons">
+        <button data-feeling="happy"><i class="fas fa-smile"></i></button>
+        <button data-feeling="angry"><i class="fas fa-angry"></i></button>
+        <button data-feeling="sad"><i class="fas fa-sad-tear"></i></button>
+        <button data-feeling="unmotivated"><i class="fas fa-meh"></i></button>
+        <button data-feeling="tired"><i class="fas fa-bed"></i></button>
     </div>
-    <div id="quoteDisplay"></div>
-    <audio id="musicPlayer" loop></audio>
+
+    <div id="quote-display" class="hidden"></div>
+
+    <audio id="background-music" controls class="hidden"></audio>
+
     <script src="script.js"></script>
+
 </body>
 </html>
