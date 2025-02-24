@@ -1,6 +1,6 @@
 const quotes = {
     happy: [
-        { text: "Your smile is my favorite thing in the world 💛", image: "quotes/happy1.jpg" },
+        { text: "Your smile is my favorite thing in the world 💛", image: "https://github.com/faizalwoobin/Sayang/blob/main/happy1.jpg" },
         { text: "Seeing you happy makes my heart so full ❤️", image: "quotes/happy1.jpg" },
         { text: "Your happiness is contagious, and I love catching it! 😊", image: "quotes/happy1.jpg" },
         { text: "Even on the brightest days, you make everything shine brighter ✨", image: "quotes/happy1.jpg" },
