@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Are You Feeling?</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KEY.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <h1>How Are You Feeling? 💖</h1>
-
-    <div id="feeling-buttons">
-        <button data-feeling="happy"><i class="fas fa-smile"></i></button>
-        <button data-feeling="angry"><i class="fas fa-angry"></i></button>
-        <button data-feeling="sad"><i class="fas fa-sad-tear"></i></button>
-        <button data-feeling="unmotivated"><i class="fas fa-meh"></i></button>
-        <button data-feeling="tired"><i class="fas fa-bed"></i></button>
+    <h1>How Are You Feeling?</h1>
+    <div id="feelings-container">
+        <button class="feeling-btn" onclick="showQuotes('happy')">😊 Happy</button>
+        <button class="feeling-btn" onclick="showQuotes('angry')">😡 Angry</button>
+        <button class="feeling-btn" onclick="showQuotes('sad')">😢 Sad</button>
+        <button class="feeling-btn" onclick="showQuotes('unmotivated')">💤 Unmotivated</button>
+        <button class="feeling-btn" onclick="showQuotes('tired')">😴 Tired</button>
     </div>
 
-    <div id="quote-display" class="hidden"></div>
-
-    <audio id="background-music" controls class="hidden"></audio>
+    <div id="quote-container" style="display: none;">
+        <img id="quote-image" src="" alt="Feeling Image">
+        <p id="quote-text"></p>
+        <audio id="background-music" loop></audio>
+        <button onclick="resetPage()">🔄 Pick Another Feeling</button>
+    </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
